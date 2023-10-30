@@ -96,3 +96,16 @@ nav .nav__icon_text h4{
     color: #0089CF;
 }
 
+.slider_main .prev,
+.slider_main .next
+{
+    height: 40px;
+    width: 40px;
+    background-color: #0089CF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
