@@ -79,18 +79,62 @@
 
         <!-- slider::start -->
         <div class="container slider_main">
-            
-            <div class="owl-carousel slider_main_carousel owl-theme">
-                <div class="item">
-                    <img src="http://placehold.it/1080x450" alt>
-                </div>
-                <div class="item">
-                    <img src="http://placehold.it/1080x450" alt>
+            <div class="nav_icon prev_nav">
+                <div class="prev slider_main_prev">
+                    <i class="fa-solid fa-caret-left"></i>
                 </div>
             </div>
-            <div class="prev"></div>
-            <div class="next"></div>
+            <div class="owl-carousel slider_main_carousel owl-theme">
+                <div class="item">
+                    <img src="https://picsum.photos/1280/610?random=1">
+                </div>
+                <div class="item">
+                    <img src="https://picsum.photos/1280/610?random=2">
+                </div>
+                <div class="item">
+                    <img src="https://picsum.photos/1280/610?random=3">
+                </div>
+            </div>
+            <div class="nav_icon next_nav">
+                <div class="next slider_main_next">
+                    <i class="fa-solid fa-caret-right"></i>
+                </div>
+            </div>
         </div>
+        <div class="container">
+            <div class="d-flex justify-content-between container_1">
+                <div class="d-flex justify-content-between left_box p-4">
+                    <h3 class="mt-4">
+                        Why <br /> we are <br /> the best
+                    </h3>
+                    <h2>?</h2>
+                </div>
+                <div class="right_text px-3">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing
+                        elit, sed diam nonummy nibh euismod tincidunt ut laoreet
+                        dolore magna
+                        aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                        quis nostrud exerci tation ullamcorper suscipit lobortis
+                        nisl ut aliquip ex ea
+                        commodo consequat. Duis autem vel eum iriure dolor in
+                        hendrerit in vulputate velit esse molestie consequat,
+                        vel illum dolore
+                        eu feugiat nulla facilisis at vero eros et accumsan et
+                        iusto odio dignissim qui blandit praesent luptatum zzril
+                        delenit augue duis
+                        dolore te feugait nulla facilisi.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+                        aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea
+                        commodo consequat.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- <img src="http://placehold.it/1080x580"> -->
         <!-- slider::end -->
 
         <!-- Optional JavaScript; choose one of the two! -->
@@ -120,10 +164,10 @@
                     $('.btn-bn').removeClass('active');
                 });
 
-                $('.slider_main_carousel').owlCarousel({
+               var slider_main_carousel =  $('.slider_main_carousel').owlCarousel({
                     loop:true,
-                    margin:10,
-                    nav:true,
+                    margin:40,
+                    nav:false,
                     responsive:{
                         0:{
                             items:1
@@ -135,7 +179,17 @@
                             items:1
                         }
                     }
-                })
+                });
+
+                $(".slider_main_prev").click(function(){
+
+                    slider_main_carousel.trigger('prev.owl.carousel');
+                });
+
+                $(".slider_main_next").click(function(){
+                    slider_main_carousel.trigger('next.owl.carousel');
+                });
+
             });
         </script>
     </body>
