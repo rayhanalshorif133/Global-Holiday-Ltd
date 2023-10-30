@@ -13,13 +13,15 @@
             crossorigin="anonymous">
         <link rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
         <link href="./dist/css/style.css" rel="stylesheet">
 
         <title>Font-page-01</title>
     </head>
     <body>
 
-        <!-- header::start -->
+        <!-- nav::start -->
         <nav class="bg-light w-full py-3">
             <div class="container d-flex justify-content-between">
                 <div class="d-flex">
@@ -42,17 +44,64 @@
                 </div>
             </div>
         </nav>
+        <!-- nav::end -->
+
+        <!-- header::start -->
+        <nav class="container  header d-flex justify-content-between py-3">
+            <div class="logo">
+                <img src="./dist/images/logo.png" alt height="70" width="auto">
+            </div>
+            <div class="nav">
+                <div class="d-flex nav_items">
+                    <a href="#" class="nav-link">Home</a>
+                    <a href="#" class="nav-link">About Us <i
+                            class="fa-solid fa-sort-down"></i></a>
+                    <a href="#" class="nav-link">Packages <i
+                            class="fa-solid fa-sort-down"></i></a>
+                    <a href="#" class="nav-link">Legal Documents</a>
+                    <a href="#" class="nav-link">Gallery <i
+                            class="fa-solid fa-sort-down"></i></a>
+                    <a href="#" class="nav-link">Contact</a>
+                </div>
+                <ul class="navbar-nav d-none">
+                    <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Packages</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">
+                            Legal Documents
+                        </a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Gallery</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
         <!-- header::end -->
+
+        <!-- slider::start -->
+        <div class="container">
+            <div class="owl-carousel slider_main owl-theme">
+                <div class="item">
+                    <img src="http://placehold.it/1080x300" alt>
+                </div>
+            </div>
+        </div>
+        <!-- slider::end -->
 
         <!-- Optional JavaScript; choose one of the two! -->
 
         <!-- Option 1: Bootstrap Bundle with Popper -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 
         <!-- Option 2: Separate Popper and Bootstrap JS -->
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
         <script>
             $(function(){
@@ -64,6 +113,23 @@
                     $('.btn-en').addClass('active');
                     $('.btn-bn').removeClass('active');
                 });
+
+                $('.slider_main').owlCarousel({
+                    loop:true,
+                    margin:10,
+                    nav:true,
+                    responsive:{
+                        0:{
+                            items:1
+                        },
+                        600:{
+                            items:1
+                        },
+                        1000:{
+                            items:1
+                        }
+                    }
+                })
             });
         </script>
     </body>

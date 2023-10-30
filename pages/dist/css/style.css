@@ -75,3 +75,24 @@ nav .nav__icon_text h4{
     background-color: #fff;
 }
 
+.header .nav .nav_items a{
+    margin-top: 16px !important;
+    font-weight: 400;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 18px;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+}
+
+.header .nav .nav_items a i{
+    margin-left: 5px;
+    font-size: 16px;
+    
+}
+.header .nav .nav_items a i,
+.header .nav .nav_items a:hover{
+    color: #0089CF;
+}
+
