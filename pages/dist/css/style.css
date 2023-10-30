@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-light{
+    background-color: #0089CF!important;
+}
+
+nav .nav__icon_text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+nav .nav__icon_text div{
+    height: 30px;
+    width: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+nav .nav__icon_text i{
+    color: #0089CF;
+}
+
+nav .nav__icon_text h4{
+    font-size: 18px;
+    margin-top: 6px;
+    font-weight: 300;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+}
+
+/* toggle-btn */
+.toggle-btn{
+    position: relative;
+}
+
+.toggle-btn button{
+    border: none;
+    outline: none;
+    height: 30px;
+    width: 35px;
+    display: flex;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    justify-content: center;
+    letter-spacing: 2px;
+    align-items: center;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+
+.toggle-btn .active{
+    background-color: #2E3092;
+    color: #fff;
+}
+
+.toggle-btn .btn-en::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -2px;
+    height: 30px;
+    width: 2px;
+    background-color: #fff;
+}
+
