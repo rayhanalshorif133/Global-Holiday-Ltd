@@ -686,6 +686,16 @@ nav .nav__icon_text h4{
     display: flex;
     margin: auto;    
 }
+footer .icon:hover,
+.footer .social-icon:hover{
+    border: 2px solid #ffffff;
+    background-color: #0089CF;
+}
+
+footer .icon:hover a i,
+.footer .social-icon:hover a i{
+    color: #fff;
+}
 
 
 
