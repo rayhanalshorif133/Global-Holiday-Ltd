@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+.space-x-4 div{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
 .bg-light{
     background-color: #0089CF!important;
 }
@@ -37,6 +42,26 @@ nav .nav__icon_text h4{
     font-weight: 300;
     font-family: 'Oswald', sans-serif;
     letter-spacing: 1px;
+}
+
+.nav_items_bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #0089CF;
+    height: 40px;
+    width: 40px;
+    margin: auto;
+    cursor: pointer;
+}
+.nav_items_bar i{
+    color: #0089CF;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+
 }
 
 /* toggle-btn */
@@ -73,6 +98,36 @@ nav .nav__icon_text h4{
     height: 30px;
     width: 2px;
     background-color: #fff;
+}
+
+/* mobile nav */
+.mobile_nav ul{
+    background-color: #0089CF;
+}
+.mobile_nav ul li{
+    cursor: pointer;
+}
+
+
+.mobile_nav ul li:hover{
+    background-color: #015884;
+}
+
+.mobile_nav ul li i,
+.mobile_nav ul li a{
+    color: white;
+    padding: 5px;
+}
+.mobile_nav ul li a{
+    margin-left: 25px;
+}
+.mobile_nav ul li i{
+    margin-left: 5px;
+    margin-top: 3px;
+}
+.mobile_nav ul li a:hover{
+    color: #fff;
+    text-decoration: none;
 }
 
 .header .nav .nav_items a{
@@ -132,6 +187,8 @@ nav .nav__icon_text h4{
 
 
 
+.slider_main_small .prev,
+.slider_main_small .next,
 .slider_main .prev,
 .slider_main .next{
     cursor: pointer;
@@ -144,6 +201,8 @@ nav .nav__icon_text h4{
     align-items: center;
 }
 
+.slider_main_small .prev i,
+.slider_main_small .next i,
 .slider_main .prev i,
 .slider_main .next i{
     color: #fff;
