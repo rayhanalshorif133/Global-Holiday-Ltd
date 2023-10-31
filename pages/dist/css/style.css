@@ -193,4 +193,79 @@ nav .nav__icon_text h4{
 }
 
 
+.container_2 .box{
+    border: 2px solid #0089CF;
+    padding: 18px 18px 0 18px;
+    height: auto;
+}
+
+.container_2 .box .icon i{
+    font-size: 4rem;
+    color: #0089CF;
+}
+
+
+
+.container_2 .box .title{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    color: #0b0b0b;
+    margin-top: 10px;
+}
+.container_2 .box .text{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    color: #0b0b0b;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.container_3{
+    border: 2px solid #EE1D23;
+    height: 14.5rem;
+    margin: 0;
+}
+
+.container_3 .box{
+    height: 14.2rem;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #EE1D23;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_3 .box .white_box{
+    height: 9.7rem;
+    width: 9.7rem;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_3 .box .white_box i{
+    font-size: 4rem;
+    color: #EE1D23;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_3 .left_text h3{
+    font-size: 1.7rem;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    color: #008AD6;
+}
+
 
