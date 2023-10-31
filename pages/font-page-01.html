@@ -247,6 +247,36 @@
                     </div>
                 </div>
             </div>
+
+            <div class="container_4 mt-5">
+                <div class="work_permit_visa">
+                    <h2 class="text-center text-white">WORK PERMIT VISA</h2>
+                </div>
+                <div class="owl-carousel work_permit_visa_carousel owl-theme">
+                    <div class="item">
+                        <div class="box">
+                            <div class="img_box position-relative">
+                                <img src="https://picsum.photos/200/300?random=1">
+                                <a href="#">
+                                    <p class="text-white">DETAILS</p>
+                                </a>
+                            </div>
+                            <div class="title">
+                                <h3 class="text-center text-uppercase">CROATIA</h3>
+                            </div>
+                            <div class="sub_title d-flex">
+                                <div class="left_box">
+                                    <h4 class="text-left text-uppercase">
+                                        BDT : 11,000,000.00</h4>
+                                </div>
+                                <div class="right_box text-center">
+                                    <a href="#" class="text-center text-uppercase">Book now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
         </div>
 
         <!-- <img src="http://placehold.it/1080x580"> -->
@@ -304,6 +334,24 @@
                 $(".slider_main_next").click(function(){
                     slider_main_carousel.trigger('next.owl.carousel');
                 });
+
+
+                $('.work_permit_visa_carousel').owlCarousel({
+                    loop:true,
+                    margin:40,
+                    nav:false,
+                    responsive:{
+                        0:{
+                            items:1
+                        },
+                        600:{
+                            items:3
+                        },
+                        1000:{
+                            items:4
+                        }
+                    }
+                })
 
             });
         </script>

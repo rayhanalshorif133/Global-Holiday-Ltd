@@ -268,4 +268,103 @@ nav .nav__icon_text h4{
     color: #008AD6;
 }
 
+.container_4 .work_permit_visa{
+    background-color: #00854A;
+}
+
+.container_4 .work_permit_visa h2{
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    padding: 10px 0;
+    color: #fff;
+}
+
+.container_4 .work_permit_visa_carousel .img_box{
+    height: 25rem;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.container_4 .work_permit_visa_carousel .img_box img{
+    height: 100%;    
+    z-index: -1;
+}
+
+.container_4 .work_permit_visa_carousel .img_box a{
+    background-color: #4CB848;
+    bottom: -20px;
+    position: absolute;
+    height: 50px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.container_4 .work_permit_visa_carousel .img_box a p{
+    z-index: 9999;
+    font-size: 0.9rem;
+    font-weight: 400;
+    padding: 0 20px;
+    margin-top: 4px;
+    font-family: 'Oswald', sans-serif; 
+}
+
+.container_4 .work_permit_visa_carousel .box .title{
+    background-color: #00854A;
+    margin-top: 6px;
+    padding: 1px;
+}
+
+.container_4 .work_permit_visa_carousel .box .title h3{
+    font-size: 1.3rem;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    color: #fefefe;
+    margin-top: 6px;
+}
+
+.container_4 .work_permit_visa_carousel .box .sub_title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.container_4 .work_permit_visa_carousel .box .sub_title .left_box{
+    background-color: #00652E;
+    padding: 1px;
+    width: 70%;
+}
+
+.container_4 .work_permit_visa_carousel .box .sub_title .left_box h4{
+    font-size: 0.7rem;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    color: #fefefe;
+    padding: 0 15px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin-top: 6px;
+}
+
+.container_4 .work_permit_visa_carousel .box .sub_title .right_box{
+    background-color: #4CB848;
+    width: 30%;
+    padding: 3px 10px;
+}
+.container_4 .work_permit_visa_carousel .box .sub_title .right_box a{
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+}
+
 
