@@ -268,21 +268,23 @@ nav .nav__icon_text h4{
     color: #008AD6;
 }
 
-.container_4 .work_permit_visa{
+/* carousel green_section:start */
+.container_carousel .green_section{
     background-color: #00854A;
 }
 
-.container_4 .work_permit_visa h2{
+.container_carousel .green_section h2{
     font-size: 1.5rem;
     font-weight: 400;
     font-family: 'Oswald', sans-serif;
     letter-spacing: 2px;
     padding: 10px 0;
     color: #fff;
+    text-transform: uppercase;
 }
 
-.container_4 .work_permit_visa_carousel .img_box{
-    height: 25rem;
+.container_carousel .green_section_carousel .img_box{
+    height: 18rem;
     width: 100%;
     position: relative;
     overflow: hidden;
@@ -290,12 +292,12 @@ nav .nav__icon_text h4{
     padding: 0;
 }
 
-.container_4 .work_permit_visa_carousel .img_box img{
+.container_carousel .green_section_carousel .img_box img{
     height: 100%;    
     z-index: -1;
 }
 
-.container_4 .work_permit_visa_carousel .img_box a{
+.container_carousel .green_section_carousel .img_box a{
     background-color: #4CB848;
     bottom: -20px;
     position: absolute;
@@ -303,7 +305,7 @@ nav .nav__icon_text h4{
     text-decoration: none;
     cursor: pointer;
 }
-.container_4 .work_permit_visa_carousel .img_box a p{
+.container_carousel .green_section_carousel .img_box a p{
     z-index: 9999;
     font-size: 0.9rem;
     font-weight: 400;
@@ -312,13 +314,13 @@ nav .nav__icon_text h4{
     font-family: 'Oswald', sans-serif; 
 }
 
-.container_4 .work_permit_visa_carousel .box .title{
+.container_carousel .green_section_carousel .box .title{
     background-color: #00854A;
     margin-top: 6px;
     padding: 1px;
 }
 
-.container_4 .work_permit_visa_carousel .box .title h3{
+.container_carousel .green_section_carousel .box .title h3{
     font-size: 1.3rem;
     font-weight: 400;
     font-family: 'Oswald', sans-serif;
@@ -327,20 +329,21 @@ nav .nav__icon_text h4{
     margin-top: 6px;
 }
 
-.container_4 .work_permit_visa_carousel .box .sub_title{
+.container_carousel .green_section_carousel .box .sub_title{
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    background-color: #00652E;
 }
 
-.container_4 .work_permit_visa_carousel .box .sub_title .left_box{
+.container_carousel .green_section_carousel .box .sub_title .left_box{
     background-color: #00652E;
     padding: 1px;
     width: 70%;
 }
 
-.container_4 .work_permit_visa_carousel .box .sub_title .left_box h4{
+.container_carousel .green_section_carousel .box .sub_title .left_box h4{
     font-size: 0.7rem;
     font-weight: 400;
     font-family: 'Oswald', sans-serif;
@@ -353,12 +356,12 @@ nav .nav__icon_text h4{
     margin-top: 6px;
 }
 
-.container_4 .work_permit_visa_carousel .box .sub_title .right_box{
+.container_carousel .green_section_carousel .box .sub_title .right_box{
     background-color: #4CB848;
     width: 30%;
     padding: 3px 10px;
 }
-.container_4 .work_permit_visa_carousel .box .sub_title .right_box a{
+.container_carousel .green_section_carousel .box .sub_title .right_box a{
     cursor: pointer;
     text-decoration: none;
     font-size: 0.7rem;
@@ -366,5 +369,248 @@ nav .nav__icon_text h4{
     color: #fff;
     font-family: 'Oswald', sans-serif;
 }
+
+.container_carousel .nav_icon{
+    width: 2.9rem;
+    height: 2.9rem;
+    background-color: #0089CF;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+}
+
+.container_carousel .nav_icon i{
+    font-size: 1.6rem;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+/* carousel green_section:end */
+
+/* carousel sky_section:start */
+.container_carousel .sky_section{
+    background-color: #0089CF;
+}
+
+.container_carousel .sky_section h2{
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    padding: 10px 0;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.container_carousel .sky_section_carousel .img_box{
+    height: 18rem;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.container_carousel .sky_section_carousel .img_box img{
+    height: 100%;    
+    z-index: -1;
+}
+
+.container_carousel .sky_section_carousel .img_box a{
+    background-color: #016AB6;
+    bottom: -20px;
+    position: absolute;
+    height: 50px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.container_carousel .sky_section_carousel .img_box a p{
+    z-index: 9999;
+    font-size: 0.9rem;
+    font-weight: 400;
+    padding: 0 20px;
+    margin-top: 4px;
+    font-family: 'Oswald', sans-serif; 
+}
+
+.container_carousel .sky_section_carousel .box .title{
+    background-color: #0089CF;
+    margin-top: 6px;
+    padding: 1px;
+}
+
+.container_carousel .sky_section_carousel .box .title h3{
+    font-size: 1.3rem;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    color: #fefefe;
+    margin-top: 6px;
+}
+
+.container_carousel .sky_section_carousel .box .sub_title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #016AB6;
+}
+
+.container_carousel .sky_section_carousel .box .sub_title .left_box{
+    background-color: #016AB6;
+    padding: 1px;
+    width: 70%;
+}
+
+.container_carousel .sky_section_carousel .box .sub_title .left_box h4{
+    font-size: 0.7rem;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    color: #fefefe;
+    padding: 0 15px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin-top: 6px;
+}
+
+.container_carousel .sky_section_carousel .box .sub_title .right_box{
+    background-color: #2E3092;
+    width: 30%;
+    padding: 3px 10px;
+}
+.container_carousel .sky_section_carousel .box .sub_title .right_box a{
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+}
+
+.container_carousel .nav_icon{
+    width: 2.9rem;
+    height: 2.9rem;
+    background-color: #0089CF;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+}
+
+.container_carousel .nav_icon i{
+    font-size: 1.6rem;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+/* carousel sky_section:end */
+
+/* map_footer */
+.map_footer{
+    height: 30rem;
+    width: 100%;
+    background-color: #C6DBF1;
+    padding: 20px 0;
+}
+
+.map_footer .title{
+    text-transform: uppercase;
+    background-color: #0089CF;
+    width: fit-content;
+}
+
+.map_footer .title h2{
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    padding: 10px 0;
+    color: #fff;
+}
+
+.map_footer .item .icon{
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: #0089CF;
+    border-radius: 50%;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+}
+
+.map_footer .item img{
+    height: 2.8rem;
+    width: auto;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+}
+
+.map_footer .item .icon i{
+    font-size: 0.8rem;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.map_footer .item .left_box{
+    padding: 0 25px;
+}
+
+.map_footer .item .box{
+    padding: 0 15px;
+}
+
+.map_footer .item .left_box h3{
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    color: #0089CF;
+}
+.map_footer .item .box a,
+.map_footer .item .left_box a,
+.map_footer .item .left_box p{
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    color: #3a3a3a;
+    margin: 0;
+    padding: 0;
+    transition: 0.2s ease-in-out;
+}
+
+.map_footer .item .box a:hover,
+.map_footer .item .left_box a:hover{
+    color: #0089CF;
+}
+
+.map_footer .line{
+    height: 100%;
+    width: 2px;
+    background-color: #0089CF;
+    left: -4rem;
+}
+.map_footer .map_box{
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    padding: 0 20px;
+    position: relative;
+    border: 3px solid #0089CF;
+}
+
 
 
