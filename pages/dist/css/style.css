@@ -588,6 +588,8 @@ nav .nav__icon_text h4{
     width: fit-content;
 }
 
+
+
 .map_footer .title h2{
     font-size: 1.2rem;
     font-weight: 400;
@@ -597,6 +599,7 @@ nav .nav__icon_text h4{
     color: #fff;
 }
 
+.form .item .icon,
 .map_footer .item .icon{
     height: 1.5rem;
     width: 1.5rem;
@@ -615,6 +618,7 @@ nav .nav__icon_text h4{
     display: flex;
 }
 
+.form .item .icon i,
 .map_footer .item .icon i{
     font-size: 0.8rem;
     color: #fff;
@@ -624,6 +628,7 @@ nav .nav__icon_text h4{
     margin: auto;
 }
 
+.form .item .left_box,
 .map_footer .item .left_box{
     padding: 0 25px;
 }
@@ -632,6 +637,7 @@ nav .nav__icon_text h4{
     padding: 0 15px;
 }
 
+.form .item .left_box h3,
 .map_footer .item .left_box h3{
     font-size: 1.2rem;
     font-weight: 500;
@@ -639,6 +645,9 @@ nav .nav__icon_text h4{
     letter-spacing: 2px;
     color: #0089CF;
 }
+
+.form .item .left_box p,
+.form .item .left_box a,
 .map_footer .item .box a,
 .map_footer .item .left_box a,
 .map_footer .item .left_box p{
@@ -652,6 +661,7 @@ nav .nav__icon_text h4{
     transition: 0.2s ease-in-out;
 }
 
+.form .item .box a:hover,
 .map_footer .item .box a:hover,
 .map_footer .item .left_box a:hover{
     color: #0089CF;
@@ -848,6 +858,56 @@ footer .icon:hover a i,
     color: #fff;
 }
 
+/* form */
+
+.form .item{
+    width: 100%;
+}
+.form .item .left_box{
+    width: 80%;
+}
+
+.form .line{
+    height: 100%;
+    width: 2px;
+    background-color: #0089CF;
+    left: -2rem;
+    top: 1.5rem;
+    position: absolute;
+}
+
+.form .title{
+    margin-top: 3rem;
+    width: 100%;
+    text-transform: uppercase;
+    background-color: #017A47;
+    border-radius: 99999px;
+    padding: 0.2rem 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.form .title h1{
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    color: #fff;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6px;
+}
+
+.form .title i{
+    font-size: 2.5rem;
+    color: #fff;
+    margin: 10px;
+}
+
+.form form{
+
+}
 
 
 

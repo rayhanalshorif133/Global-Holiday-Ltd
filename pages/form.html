@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/png" href="./dist/images/favicon.ico">
+        <!-- Bootstrap CSS -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+        <link href="./dist/css/style.css" rel="stylesheet">
+        <link href="./dist/css/responsive.css" rel="stylesheet">
+
+        <title>Form - Page</title>
+    </head>
+    <body>
+
+        <!-- nav::start -->
+
+        <!-- <img src="./dist/images/logo.png" alt height="70" width="auto"> -->
+
+        <div class="container mt-5 form">
+            <div class="row mx-auto justify-content-center">
+                <div class="col-md-4">
+                    <img src="./dist/images/logo.png" alt height="70"
+                        width="auto" class="mt-4">
+                </div>
+                <div class="col-md-4 position-relative">
+                    <div class="line"></div>
+                    <div class="item d-flex mt-4">
+                        <div class="icon">
+                            <i class="fa-solid fa-map-marker-alt"></i>
+                        </div>
+                        <div class="left_box text-left">
+                            <p>Chowdhury Mall (Lift-06) 43, Hatkhula Road,
+                                Tikatuli Dhaka-1203, Bangladesh</p>
+                            <p><b>Hotline:</b> +88 01408 893 143</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 position-relative">
+                    <div class="line"></div>
+                    <div class="item d-flex mt-4">
+                        <div class="icon">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="left_box text-left">
+                            <a href="mailto:globalholidaydh@gmail.com"
+                                class="d-block text-decoration-none">
+                                globalholidaydh@gmail.com
+                            </a>
+                            <a href="mailto:support@globalholidayltd.com"
+                                class="d-block text-decoration-none">
+                                support@globalholidayltd.com
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item d-flex">
+                        <div class="icon">
+                            <i class="fa-solid fa-globe"></i>
+                        </div>
+                        <div class="left_box text-left">
+                            <a href="https://www.globalholidayltd.com/"
+                                class="d-block text-decoration-none">
+                                www.globalholidayltd.com
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="title d-flex">
+                <i class="fa-solid fa-clipboard-user"></i><h1>CUSTOMER
+                    INFORMATION</h1>
+            </div>
+            <form action="#">
+                <div class="form_group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form_control"
+                        id="exampleInputEmail1" placeholder="Enter email">
+                </div>
+            </form>
+        </div>
+
+        <!-- Optional JavaScript; choose one of the two! -->
+
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+        <!-- Option 2: Separate Popper and Bootstrap JS -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+        <script>
+            $(function(){
+                $('.btn-bn').click(function(){
+                    $('.btn-bn').addClass('active');
+                    $('.btn-en').removeClass('active');
+                });
+                $('.btn-en').click(function(){
+                    $('.btn-en').addClass('active');
+                    $('.btn-bn').removeClass('active');
+                });
+                
+                $('.nav_items_bar').click(function(){
+                    $('.mobile_nav').toggleClass('d-none');
+                });
+
+               var slider_main_carousel =  $('.slider_main_carousel').owlCarousel({
+                    loop:true,
+                    margin:40,
+                    nav:false,
+                    responsive:{
+                        0:{
+                            items:1
+                        },
+                        600:{
+                            items:1
+                        },
+                        1000:{
+                            items:1
+                        }
+                    }
+                });
+
+                $(".slider_main_prev").click(function(){
+
+                    slider_main_carousel.trigger('prev.owl.carousel');
+                });
+
+                $(".slider_main_next").click(function(){
+                    slider_main_carousel.trigger('next.owl.carousel');
+                });
+
+
+                var work_permit_visa_carousel = $('.work_permit_visa_carousel').owlCarousel({
+                    loop:true,
+                    margin:40,
+                    nav:false,
+                    responsive:{
+                        0:{
+                            items:1
+                        },
+                        600:{
+                            items:2
+                        },
+                        1000:{
+                            items:4
+                        }
+                    }
+                });
+
+                $(".work_permit_visa_prev").click(function(){
+
+                    work_permit_visa_carousel.trigger('prev.owl.carousel');
+                });
+
+                $(".work_permit_visa_next").click(function(){
+                    work_permit_visa_carousel.trigger('next.owl.carousel');
+                });
+
+
+                var student_visa_carousel = $('.student_visa_carousel').owlCarousel({
+                    loop:true,
+                    margin:40,
+                    nav:false,
+                    responsive:{
+                        0:{
+                            items:1
+                        },
+                        600:{
+                            items:2
+                        },
+                        1000:{
+                            items:4
+                        }
+                    }
+                });
+
+                $(".student_visa_prev").click(function(){
+
+                    student_visa_carousel.trigger('prev.owl.carousel');
+                });
+
+                $(".student_visa_next").click(function(){
+                    student_visa_carousel.trigger('next.owl.carousel');
+                });
+                
+                var tourist_or_visit_carousel = $('.tourist_or_visit_carousel').owlCarousel({
+                    loop:true,
+                    margin:40,
+                    nav:false,
+                    responsive:{
+                        0:{
+                            items:1
+                        },
+                        600:{
+                            items:2
+                        },
+                        1000:{
+                            items:4
+                        }
+                    }
+                });
+
+                $(".tourist_or_visit_prev").click(function(){
+
+                    tourist_or_visit_carousel.trigger('prev.owl.carousel');
+                });
+
+                $(".tourist_or_visit_next").click(function(){
+                    tourist_or_visit_carousel.trigger('next.owl.carousel');
+                });
+                var business_visa_carousel = $('.business_visa_carousel').owlCarousel({
+                                    loop:true,
+                                    margin:40,
+                                    nav:false,
+                                    responsive:{
+                                        0:{
+                                            items:1
+                                        },
+                                        600:{
+                                            items:2
+                                        },
+                                        1000:{
+                                            items:4
+                                        }
+                                    }
+                                });
+
+                $(".business_visa_prev").click(function(){
+
+                    business_visa_carousel.trigger('prev.owl.carousel');
+                });
+                
+
+                $(".business_visa_next").click(function(){
+                    business_visa_carousel.trigger('next.owl.carousel');
+                });
+                var others_carousel = $('.others_carousel').owlCarousel({
+                                    loop:true,
+                                    margin:40,
+                                    nav:false,
+                                    responsive:{
+                                        0:{
+                                            items:1
+                                        },
+                                        600:{
+                                            items:2
+                                        },
+                                        1000:{
+                                            items:4
+                                        }
+                                    }
+                });
+
+                $(".others_prev").click(function(){
+
+                    others_carousel.trigger('prev.owl.carousel');
+                });
+                
+
+                $(".others_next").click(function(){
+                    others_carousel.trigger('next.owl.carousel');
+                });
+
+            });
+        </script>
+    </body>
+</html>
