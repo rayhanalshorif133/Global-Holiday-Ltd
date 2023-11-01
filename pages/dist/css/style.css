@@ -1039,17 +1039,42 @@ footer .icon:hover a i,
 }
 .message .box .box_text{
     width: 100%;
-    height: 100%;
+    min-height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-.message .box .box_text h3{
-    font-size: 1.6rem;
-    font-weight: 600;
+
+.message .box .box_text h3,
+.message .box .box_text h4,
+.message .box .box_text h5{
     font-family: 'Oswald', sans-serif;
     letter-spacing: 2px;
     color: #0c0c0c;
     text-transform: capitalize;
     padding: 10px 0;
     margin: 0;
+}
+
+.message .box .box_text h3{
+    font-size: 1.7rem;
+    font-weight: 500;
+    justify-content: left;
+    align-items: left;
+}
+
+.message .box .box_text h4{
+    font-size: 1.3rem;
+    font-weight: 400;
+    justify-content: left;
+    align-items: left;
+    
+}
+
+.message .box .box_text h5{
+    font-size: 1.7rem;
+    font-weight: 500;
 }
 
 .message .right_box{
