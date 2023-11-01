@@ -104,6 +104,31 @@
     .quick_link{
         margin-top: 1.5rem;
     }
+
+    .contact_social_section{
+        padding: 1.5rem 0;
+    }
+
+    .map_footer_contact{
+        padding-bottom: 2.5rem!important;
+    }
+
+    
+
+    .contact_social_section .social-icon{
+        height: 2.5rem;
+        width: 2.5rem;
+        margin: 0 10px;
+    }
+    
+    .contact_social_section .social-icon a{
+        height: 2.5rem;
+        width: 2.5rem;
+    }
+    
+    .contact_social_section .social-icon a i{
+        font-size: 1.3rem;
+    }
 }
 /* 481px — 768px: iPads, Tablets */
 @media screen and (min-width: 481px) and (max-width: 768px) {

@@ -580,7 +580,6 @@ nav .nav__icon_text h4{
     height: auto;
     width: 100%;
     background-color: #C6DBF1;
-    padding: 20px 0;
 }
 
 .map_footer .title{
@@ -715,6 +714,7 @@ nav .nav__icon_text h4{
     font-weight: 400;
 }
 
+
 .footer .social-icon,
 .footer .icon{
     height: 2.5rem;
@@ -757,6 +757,97 @@ footer .icon:hover a i,
 .footer .social-icon:hover a i{
     color: #fff;
 }
+
+/* contact */
+.map_footer .contact .box_title{
+    height: 100%;
+    width: 100%;
+    background-color: #0089CF;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    padding: 6px 0;
+}
+
+.map_footer .contact .box_title h1{
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    padding: 10px 0;
+    color: #fff;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1.5rem;
+}
+
+.map_footer .contact .box_title .icon{
+    margin: 10px;
+    position: relative;
+}
+.map_footer .contact .box_title .icon i{
+    font-size: 2rem;
+    color: #fff;    
+}
+
+
+
+.map_footer .contact .box_title .icon .fa-phone{
+    position: relative;
+}
+.map_footer .contact .box_title .icon .fa-envelope{
+    position: absolute;
+    left: 15px;
+}
+
+.contact_social_section{
+    width: 100%;
+    height: auto;
+    background-color: #0089CF;
+    padding: 2.3rem 0;
+    margin-bottom: 10px;
+}
+
+.contact_social_section .social-icon{
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: #fafafa;
+    border-radius: 50%;
+    justify-items: center;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.contact_social_section .social-icon a{
+    height: 3.5rem;
+    width: 3.5rem;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    margin: auto;
+}
+
+.contact_social_section .social-icon a i{
+    font-size: 2.3rem;
+    color: #0089CF;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    margin: auto;    
+}
+
+.contact_social_section .social-icon a:hover{
+    border: 2px solid #ffffff;
+    background-color: #0089CF;
+    border-radius: 50%;
+}
+
+.contact_social_section .social-icon a:hover i{
+    color: #fff;
+}
+
 
 
 
