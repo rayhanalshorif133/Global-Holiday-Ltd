@@ -906,7 +906,115 @@ footer .icon:hover a i,
 }
 
 .form form{
+    width: 100%;
+    height: auto;
+    padding: 1.5rem 0;
+}
 
+.form form .form_group{
+    height: auto;
+    display: flex;
+}
+
+.form form .green_form{
+    border: 1px solid #3AB54A;
+}
+
+.form form .sky_form{
+    border: 1px solid #0089CF;
+}
+
+.form form .form_group label{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    padding: 6px 10px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.form form .additional_information_from label,
+.form form .permanent_address_from label{
+    width: 15%!important;
+}
+
+.form form .green_form label{
+    background-color: #3AB54A;
+}
+
+.form form .sky_form label{
+    background-color: #0089CF;
+}
+
+
+.form form .form_group input{
+    padding: 6px 10px;
+    width: 70%;
+    height: 100%;
+    background-color: #E6E7E9;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    color: #3a3a3a;
+}
+
+.form form .additional_information_from input,
+.form form .permanent_address_from input{
+    width: 85%!important;
+}
+
+.form form .form_group select{
+    width: 70%;
+    height: 100%;
+    background-color: #E6E7E9;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    color: #3a3a3a;
+}
+
+.form_group_submit{
+    background-color: #C4D3DD;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.btn-green{
+    background-color: #017A47;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 6px 14px;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.btn-red{
+    background-color: #EE1D23;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 6px 14px;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
 }
 
 
