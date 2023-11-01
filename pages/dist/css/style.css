@@ -1017,5 +1017,26 @@ footer .icon:hover a i,
     transition: 0.2s ease-in-out;
 }
 
+/* message */
+.message{
+    width: 100%;
+    height: auto;
+    background-color: #D4E5F5;
+    margin: 10px auto;
+    padding: 0;
+}
+
+.message .box{
+    width: 100%;
+    height: auto;
+    border : 10px solid #0089CF;
+}
+
+.message .box img{
+    border : 2px solid #ffffff;
+    width: 100%;
+    height: auto;
+}
+
 
 
