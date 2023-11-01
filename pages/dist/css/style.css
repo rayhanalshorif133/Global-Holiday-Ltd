@@ -327,6 +327,8 @@ nav .nav__icon_text h4{
     color: #008AD6;
 }
 
+
+
 /* carousel green_section:start */
 .container_carousel .green_section{
     background-color: #00854A;
@@ -575,7 +577,7 @@ nav .nav__icon_text h4{
 
 /* map_footer */
 .map_footer{
-    height: 30rem;
+    height: auto;
     width: 100%;
     background-color: #C6DBF1;
     padding: 20px 0;
