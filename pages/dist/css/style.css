@@ -1201,4 +1201,157 @@ footer .icon:hover a i,
     margin: 0 0 10px 0;  
 }
 
+/* photo_gallery */
+.photo_gallery{
+    width: 100%;
+    margin: 2rem 0 5rem auto;    
+}
+
+.photo_gallery_1 .left_box{
+    background-color: #0089CF;
+    height: auto;
+}
+
+.photo_gallery_2 .left_box{
+    background-color: #00854A;
+    height: auto;
+}
+
+.photo_gallery .left_box{
+    padding: 7rem 4rem;
+}
+
+.photo_gallery .left_box .text{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 20px;
+    border: 2px solid #fff;
+    padding: 3rem;
+}
+
+.photo_gallery .left_box .text h3{
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    color: #000000;
+    text-transform: capitalize;
+}
+
+.photo_gallery .left_box .text h3{
+    font-size: 2.5rem;
+}
+.photo_gallery_2 .left_box .text h3{
+    font-size: 2rem;
+}
+
+.photo_gallery .right_box{
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+.photo_gallery .right_box .play_icon{
+    position: absolute;
+    bottom: -2rem;
+    right: 0;
+}
+
+.photo_gallery .right_box .play_icon .icon{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo_gallery .right_box .play_icon .icon i{
+    font-size: 1.1rem;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.photo_gallery_1 .right_box .play_icon .icon{
+    background-color: #0089CF;
+}
+.photo_gallery_2 .right_box .play_icon .icon{
+    background-color: #00854A;
+}
+
+.photo_gallery_1 .right_box{
+    background-color: #D4E5F5;
+}
+
+.photo_gallery_2 .right_box{
+    background-color: #D8ECDD;
+}
+
+.photo_gallery .right_box .item{
+    height: auto;
+    width: 100%;
+    margin: 20px;
+}
+.photo_gallery .right_box .item img{
+    width: 95%;
+}
+.photo_gallery_1 .right_box .item img{
+    height: 21.1rem;
+}
+.photo_gallery_2 .right_box .item img{
+    height: 22.3rem;
+}
+
+.photo_gallery .right_box .bar{
+    height: 25px;
+    width: 20rem;
+}
+
+.photo_gallery .right_box .left_bar{
+    display: flex;
+    justify-content: flex-end;
+    align-items:end;
+    margin-left: auto;
+}
+
+
+
+.photo_gallery_1 .right_box .bar{
+    background-color: #92C5EA;
+}
+
+.photo_gallery_2 .right_box .bar{
+    background-color: #9DC2A6;
+}
+
+.photo_gallery .right_box .item .text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 95%;
+}
+
+.photo_gallery_1 .right_box .item .text{
+    background-color: #0089CF;
+}
+.photo_gallery_2 .right_box .item .text{
+    background-color: #00854A;
+}
+
+.photo_gallery .right_box .item .text h3{
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    color: #0089CF;
+    margin: 0;
+}
+
+
 
