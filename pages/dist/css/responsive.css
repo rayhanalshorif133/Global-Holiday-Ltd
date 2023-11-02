@@ -162,6 +162,35 @@
     .form .form_group_submit .form_group_btn div{
         margin: 10px 0;
     }
+
+
+    /* message */
+    .message .box{
+        border : 8px solid #0089CF;
+    }
+
+    .message .box img{
+        height: 290px;
+    }
+
+    .message .box .box_text h3{
+        font-size: 1.4rem;
+    }
+    .message .box .box_text h4,
+    .message .box .box_text h5{
+        font-size: 1.2rem;
+    }
+    .message .box .box_text p{
+        font-size: 1rem;
+    }
+
+    .message .box .box_text{
+        min-height: 200px;
+    }
+    .message .right_box h3{
+        font-size: 25px;
+        text-align: center;
+    }
 }
 /* 481px — 768px: iPads, Tablets */
 @media screen and (min-width: 481px) and (max-width: 768px) {
@@ -269,6 +298,45 @@
     .form .form_group_submit .form_group_btn div{
         margin: 10px 0;
     }
+
+    /* message */
+    
+    .message .box{
+        border : 10px solid #0089CF;
+    }
+
+    .message .box .box_image{
+        margin: 10px auto !important;
+    }
+
+    .message .box img{
+        height: 400px;
+        width: 90%;
+        margin: auto !important;
+        justify-content: center;
+        display: flex;
+        margin-top: 15px;
+    }
+
+    .message .box .box_text h3{
+        font-size: 1.4rem;
+    }
+    .message .box .box_text h4,
+    .message .box .box_text h5{
+        font-size: 1.2rem;
+    }
+    .message .box .box_text p{
+        font-size: 1rem;
+    }
+
+    .message .box .box_text{
+        min-height: 200px;
+    }
+    .message .right_box h3{
+        font-size: 25px;
+        text-align: center;
+    }
+    
 }
 
 @media only screen and (min-width: 768px) {
@@ -304,6 +372,58 @@
 
     .form img {
         height: 65px;
+    }
+
+
+
+    .message .row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .message .col-md-4,
+    .message .col-md-8{
+        width: 100% !important;
+    }
+
+
+    .message .box{
+        border : 10px solid #0089CF;
+        height: 50%;
+    }
+    
+
+    .message .box .box_image{
+        margin: 10px auto !important;
+    }
+
+    .message .box img{
+        height: 300px;
+        width: 50%;
+        margin: auto !important;
+        justify-content: center;
+        display: flex;
+        margin-top: 15px;
+    }
+
+    .message .box .box_text h3{
+        font-size: 1.4rem;
+    }
+    .message .box .box_text h4,
+    .message .box .box_text h5{
+        font-size: 1.2rem;
+    }
+    .message .box .box_text p{
+        font-size: 1rem;
+    }
+
+    .message .box .box_text{
+        min-height: 200px;
+    }
+    .message .right_box h3{
+        font-size: 25px;
+        text-align: center;
     }
 }
 
@@ -345,6 +465,63 @@
     }
     .map_footer .line {
         display: none;
+    }
+
+
+    .message .row{
+        flex-direction: row;
+    }
+    .message .col-md-4{
+        width: 33.33% !important;
+    }
+    .message .col-md-8{
+        width: 66.66% !important;
+    }
+
+    .message .box{
+        border : 10px solid #0089CF;
+        height: 100%;
+    }
+    
+
+    .message .box .box_image{
+        margin: 10px auto !important;
+    }
+
+    .message .box img{
+        height: auto;
+        width: 90%;
+        margin: auto !important;
+        justify-content: center;
+        display: flex;
+    }
+
+    .message .box .box_text{
+        min-height: 50%;
+    }
+
+
+    .message .box .box_text h3{
+        font-size: 1.2rem;
+        justify-content: center;
+        display: flex;
+        text-align: center;
+    }
+    .message .box .box_text h4,
+    .message .box .box_text h5{
+        font-size: 1rem;
+        justify-content: center;
+        display: flex;
+        text-align: center;
+    }
+    .message .box .box_text p{
+        font-size: 1rem;
+    }
+
+    
+    .message .right_box h3{
+        font-size: 25px;
+        text-align: center;
     }
 }
 /* 1025px — 1200px: Desktops, large screens */
@@ -414,6 +591,65 @@
     .form .line {
         left: -0.5rem;
     }
+
+
+    .message .row{
+        flex-direction: row;
+    }
+    .message .col-md-4{
+        width: 33.33% !important;
+    }
+    .message .col-md-8{
+        width: 66.66% !important;
+    }
+
+    .message .box{
+        border : 10px solid #0089CF;
+        height: 100%;
+    }
+    
+
+    .message .box .box_image{
+        margin: 10px auto !important;
+    }
+
+    .message .box img{
+        height: auto;
+        width: 90%;
+        margin: auto !important;
+        justify-content: center;
+        display: flex;
+    }
+
+    .message .box .box_text{
+        min-height: 50%;
+    }
+
+
+    .message .box .box_text h3{
+        font-size: 1.2rem;
+        justify-content: center;
+        display: flex;
+        text-align: center;
+    }
+    .message .box .box_text h4,
+    .message .box .box_text h5{
+        font-size: 1rem;
+        justify-content: center;
+        display: flex;
+        text-align: center;
+    }
+    .message .box .box_text p{
+        font-size: 1rem;
+    }
+
+    
+    .message .right_box h3{
+        font-size: 25px;
+        text-align: center;
+    }
+
+
 }
 /* 1201px and more —  Extra large screens, TV */
 @media screen and (min-width: 1201px) {
@@ -454,6 +690,62 @@
 
     .form .line {
         left: -0.5rem;
+    }
+
+    .message .row{
+        flex-direction: row;
+    }
+    .message .col-md-4{
+        width: 33.33% !important;
+    }
+    .message .col-md-8{
+        width: 66.66% !important;
+    }
+
+    .message .box{
+        border : 10px solid #0089CF;
+        height: 100%;
+    }
+    
+
+    .message .box .box_image{
+        margin: 10px auto !important;
+    }
+
+    .message .box img{
+        height: auto;
+        width: 90%;
+        margin: auto !important;
+        justify-content: center;
+        display: flex;
+    }
+
+    .message .box .box_text{
+        min-height: 50%;
+    }
+
+
+    .message .box .box_text h3{
+        font-size: 1.2rem;
+        justify-content: center;
+        display: flex;
+        text-align: center;
+    }
+    .message .box .box_text h4,
+    .message .box .box_text h5{
+        font-size: 1rem;
+        justify-content: center;
+        display: flex;
+        text-align: center;
+    }
+    .message .box .box_text p{
+        font-size: 1rem;
+    }
+
+    
+    .message .right_box h3{
+        font-size: 25px;
+        text-align: center;
     }
 }
 /* media tag devices:end */
