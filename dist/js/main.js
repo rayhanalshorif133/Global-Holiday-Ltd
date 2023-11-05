@@ -183,14 +183,21 @@ $(".others_next").click(function () {
 
 $(".nav_item_about").click(function () {
     $(".about").toggleClass('d-none');
+    $(".packages").addClass('d-none');
+    $(".gallery").addClass('d-none');
+
 });
 
 $(".nav_item_packages").click(function () {
     $(".packages").toggleClass('d-none');
+    $(".about").addClass('d-none');
+    $(".gallery").addClass('d-none');
 });
 
 $(".nav_item_gallery").click(function () {
     $(".gallery").toggleClass('d-none');
+    $(".packages").addClass('d-none');
+    $(".about").addClass('d-none');
 });
 
 $(document).click(function (e) {
