@@ -146,6 +146,7 @@ nav .nav__icon_text h4{
     background-color: #015884;
 }
 
+
 .mobile_nav ul li i,
 .mobile_nav ul li a{
     color: white;
@@ -158,9 +159,19 @@ nav .nav__icon_text h4{
     margin-left: 5px;
     margin-top: 3px;
 }
+.mobile_nav ul li a:focus,
 .mobile_nav ul li a:hover{
     color: #fff;
     text-decoration: none;
+}
+
+.mobile_nav .sub_nav_item{
+    padding: 5px 0 5px 25px;
+}
+
+.mobile_nav .sub_nav_item:hover{
+    background-color: #003855;
+
 }
 
 .header .nav .nav_items .nav-link{

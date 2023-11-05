@@ -1060,5 +1060,10 @@
         color: #0089cf;
         margin: 0;
     }
+
+    .container_3 .left_text .youtube_section iframe {
+        width: 95% !important;
+    }
+
 }
 /* media tag devices:end */
