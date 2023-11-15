@@ -44,7 +44,7 @@
     .container_1 .left_box {
         width: 100%;
     }
-
+    
     .container_1 .left_box {
         margin-bottom: 10px;
     }
@@ -228,34 +228,6 @@
     .photo_gallery .right_box .item .text {
         width: 100%;
     }
-
-    /* package */
-
-    .package .right_box {
-        margin: 0 10px;
-    }
-    .package .col-md-6:nth-child(2),
-    .package .col-md-5,
-    .package .col-md-7
-    {
-        margin: 10px 0;
-    }
-
-    .package .image_2{
-        height: 20rem;
-        margin-bottom: 10px;
-    }
-
-    .package .right_box h2 {
-        font-size: 17px;
-        padding: 12px 2px;
-    }
-
-    .package .sub_title .right_box a,
-    .package .sub_title .left_box h4{
-        font-size: 0.7rem;
-    }
-    
 }
 /* 481px — 768px: iPads, Tablets */
 @media screen and (min-width: 481px) and (max-width: 768px) {
@@ -448,36 +420,6 @@
     .photo_gallery .right_box .item .text {
         width: 100%;
     }
-
-    /* package */
-
-    .package .right_box {
-        margin: 0 10px;
-    }
-    .package .col-md-6:nth-child(2),
-    .package .col-md-5,
-    .package .col-md-7
-    {
-        margin: 10px 0;
-    }
-
-    .package .image_2{
-        height: 30rem;
-        margin-bottom: 10px;
-    }
-
-    .package .right_box h2 {
-        font-size: 22px;
-        padding: 14px 2px;
-    }
-
-    .package .sub_title .right_box a,
-    .package .sub_title .left_box h4{
-        font-size: 18px;
-    }
-    .package .sub_title .right_box {
-        padding: 7px 10px;
-    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -609,34 +551,6 @@
     .photo_gallery .right_box .bar {
         display: block;
     }
-
-     /* package */
-
-     .package .right_box {
-        margin: 0 10px;
-    }
-
-    .package .col-md-6:nth-child(2), .package .col-md-5, .package .col-md-7{
-        margin: 0px 0;
-    }
-
-    .package .image_2{
-        height: auto;
-        margin-bottom: 10px;
-    }
-
-    .package .right_box h2 {
-        font-size: 22px;
-        padding: 14px 2px;
-    }
-
-    .package .sub_title .right_box a,
-    .package .sub_title .left_box h4{
-        font-size: 17px;
-    }
-    .package .sub_title .right_box {
-        padding: 7px 10px;
-    }
 }
 
 /* 769px — 1024px: Small screens, laptops */
@@ -649,7 +563,7 @@
         font-size: 24px;
     }
     .container_1 .left_box h2 {
-        font-size: 8rem;
+        font-size: 6rem;
         margin-top: 2rem;
     }
     .container_1 .left_box .out_br {
@@ -775,25 +689,6 @@
 
     .photo_gallery .right_box .bar {
         display: block;
-    }
-
-    /* package */
-    .package .image_2{
-        height: 40rem;
-        margin-bottom: 10px;
-    }
-
-    .package .right_box h2 {
-        font-size: 22px;
-        padding: 14px 2px;
-    }
-
-    .package .sub_title .right_box a,
-    .package .sub_title .left_box h4{
-        font-size: 17px;
-    }
-    .package .sub_title .right_box {
-        padding: 7px 10px;
     }
 }
 /* 1025px — 1200px: Desktops, large screens */
@@ -971,26 +866,6 @@
     .photo_gallery .right_box .bar {
         display: block;
     }
-
-
-    /* package */
-    .package .image_2{
-        height: 40rem;
-        margin-bottom: 10px;
-    }
-
-    .package .right_box h2 {
-        font-size: 22px;
-        padding: 14px 2px;
-    }
-
-    .package .sub_title .right_box a,
-    .package .sub_title .left_box h4{
-        font-size: 17px;
-    }
-    .package .sub_title .right_box {
-        padding: 7px 10px;
-    }
 }
 /* 1201px and more —  Extra large screens, TV */
 @media screen and (min-width: 1201px) {
@@ -1005,6 +880,11 @@
     .container_1 .left_box .out_br {
         display: none;
     }
+
+    .container_1 .left_box{
+        height: 12rem;
+    }
+
     .container_1 .right_text {
         padding: 0 0 0 15px;
     }
@@ -1180,7 +1060,6 @@
     .photo_gallery .right_box .item .text h3 {
         font-size: 14px;
         font-weight: 300;
-        font-family: "Oswald", sans-serif;
         letter-spacing: 1px;
         color: #0089cf;
         margin: 0;
@@ -1190,24 +1069,6 @@
         width: 95% !important;
     }
 
-    /* package */
-    .package .image_2{
-        height: 44.3rem;
-        margin-bottom: 0px;
-    }
-
-    .package .right_box h2 {
-        font-size: 26px;
-        padding: 14px 2px;
-    }
-
-    .package .sub_title .right_box a,
-    .package .sub_title .left_box h4{
-        font-size: 1.4rem;
-    }
-    .package .sub_title .right_box {
-        padding: 7px 10px;
-    }
 
 }
 /* media tag devices:end */

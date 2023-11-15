@@ -107,7 +107,7 @@ nav .nav__icon_text i{
 }
 
 nav .nav__icon_text h4{
-    font-size: 18px;
+    font-size: 16px;
     margin-top: 6px;
     font-weight: 300;
     font-family: Helvetica;
@@ -218,7 +218,7 @@ nav .nav__icon_text h4{
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 16px;
     color: black;
     font-family: "Helvetica-Bold";
 }
@@ -325,7 +325,7 @@ nav .nav__icon_text h4{
     width: 80%;
 }
 .container_1 .right_text p{
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     font-family: Helvetica;
     letter-spacing: 1px;
@@ -356,7 +356,7 @@ nav .nav__icon_text h4{
     margin-top: 10px;
 }
 .container_2 .box .text{
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     font-family: Helvetica;
     letter-spacing: 1px;
@@ -1175,7 +1175,7 @@ footer .icon:hover a i,
     margin: 10px 0;
 }
 .message .right_box p{
-    font-size: 1.1rem;
+    font-size: 16px;
     font-weight: 400;
     font-family: Helvetica;
     letter-spacing: 1px;
@@ -1256,7 +1256,7 @@ footer .icon:hover a i,
 
 
 .our_team .body .box_text h2{
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     font-family: "Helvetica-Bold";
     letter-spacing: 1px;
