@@ -1024,17 +1024,19 @@ footer .icon:hover a i,
 
 .form form .green_form label{
     background-color: #3AB54A;
+    height: auto;
 }
 
 .form form .sky_form label{
     background-color: #0089CF;
+    height: auto;
 }
 
 
 .form form .form_group input{
     padding: 6px 10px;
     width: 70%;
-    height: 100%;
+    height: auto;
     background-color: #E6E7E9;
     border: none;
     outline: none;
@@ -1052,7 +1054,7 @@ footer .icon:hover a i,
 
 .form form .form_group select{
     width: 70%;
-    height: 100%;
+    height: auto;
     background-color: #E6E7E9;
     border: none;
     outline: none;
