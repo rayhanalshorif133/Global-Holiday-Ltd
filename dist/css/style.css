@@ -1342,6 +1342,7 @@ footer .icon:hover a i,
     position: absolute;
     bottom: -2rem;
     right: 0;
+    cursor: pointer;
 }
 
 .photo_gallery .right_box .play_icon .icon{

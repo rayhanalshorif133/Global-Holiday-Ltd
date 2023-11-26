@@ -73,6 +73,11 @@ $(function () {
     $(".work_permit_visa_next").click(function () {
         work_permit_visa_carousel.trigger('next.owl.carousel');
     });
+
+
+
+  
+
 });
 
 
@@ -212,6 +217,8 @@ photo_gallery = $('.photo_gallery_carousel').owlCarousel({
     margin: 20,
     nav: false,
     dots: false,
+    autoplay:false,
+    autoplayHoverPause:true,
     responsive: {
         0: {
             items: 1
@@ -225,3 +232,25 @@ photo_gallery = $('.photo_gallery_carousel').owlCarousel({
         }
     },
 });
+
+
+
+$(() => {
+    $(document).on("click", ".play_icon", function () {
+        var element = $(this).attr("data-target");
+        var icon = $(this).find('i');
+        icon.toggleClass('fa-play');
+        icon.toggleClass('fa-pause');
+        if(icon.hasClass('fa-pause')){
+            $(`.${element}`).trigger('play.owl.autoplay',[2000]);
+        }else{
+            $(`.${element}`).trigger('stop.owl.autoplay');
+        }
+    });
+    
+    
+    
+
+});
+
+

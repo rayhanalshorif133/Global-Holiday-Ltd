@@ -220,6 +220,7 @@
 
     .photo_gallery .right_box .item {
         margin: 10px 0;
+        width: 53rem;
     }
     .photo_gallery .right_box .item img {
         width: 100%;
@@ -854,19 +855,20 @@
     }
 
     .photo_gallery .right_box .item {
-        padding: 20px;
+        width: 38.5rem;
     }
     .photo_gallery .right_box .item img {
         height: 200px;
         margin: 0 auto;
     }
     .photo_gallery .right_box .item .text {
-        width: 95%;
+        width: 100%;
     }
 
     .photo_gallery .right_box .bar {
         display: block;
     }
+    
 }
 /* 1201px and more —  Extra large screens, TV */
 
@@ -1012,7 +1014,7 @@
 
     .photo_gallery .right_box .item {
         height: auto;
-        width: 100%;
+        width: 46rem;
         margin: 20px;
     }
     .photo_gallery .right_box .item img {
@@ -1217,7 +1219,7 @@
 
     .photo_gallery .right_box .item {
         height: auto;
-        width: 100%;
+        width: 54rem;
         margin: 20px;
     }
     .photo_gallery .right_box .item img {
@@ -1277,6 +1279,8 @@
     .container_3 .left_text .youtube_section iframe {
         width: 95% !important;
     }
+
+    
 
 
 }
