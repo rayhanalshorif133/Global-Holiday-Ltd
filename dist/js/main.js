@@ -65,16 +65,16 @@ $(function () {
             $(this).remove();
         }
     });
+    $(".work_permit_visa_prev").click(function () {
+    
+        work_permit_visa_carousel.trigger('prev.owl.carousel');
+    });
+    
+    $(".work_permit_visa_next").click(function () {
+        work_permit_visa_carousel.trigger('next.owl.carousel');
+    });
 });
 
-$(".work_permit_visa_prev").click(function () {
-
-    work_permit_visa_carousel.trigger('prev.owl.carousel');
-});
-
-$(".work_permit_visa_next").click(function () {
-    work_permit_visa_carousel.trigger('next.owl.carousel');
-});
 
 
 var student_visa_carousel = $('.student_visa_carousel').owlCarousel({
