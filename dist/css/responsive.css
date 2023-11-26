@@ -224,6 +224,7 @@
     .photo_gallery .right_box .item img {
         width: 100%;
         height: 300px;
+        margin: 0;
     }
     .photo_gallery .right_box .item .text {
         width: 100%;
@@ -1016,6 +1017,7 @@
     }
     .photo_gallery .right_box .item img {
         width: 95%;
+        margin: 0;
     }
     .photo_gallery_1 .right_box .item img {
         height: 21.1rem;
@@ -1220,6 +1222,7 @@
     }
     .photo_gallery .right_box .item img {
         width: 95%;
+        margin: 0;
     }
     .photo_gallery_1 .right_box .item img {
         height: 21.1rem;

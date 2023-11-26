@@ -1380,12 +1380,14 @@ footer .icon:hover a i,
 .photo_gallery .right_box .item{
     height: auto;
     width: 100%;
-    margin: 20px;
+    /* margin: 20px; */
 }
 .photo_gallery .right_box .item img{
-    width: 95%;
+    margin: 0;
+    width: 100%;
 }
 .photo_gallery_1 .right_box .item img{
+    margin: 0;
     height: 21.1rem;
 }
 .photo_gallery_2 .right_box .item img{
