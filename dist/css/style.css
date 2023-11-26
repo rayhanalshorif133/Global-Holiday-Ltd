@@ -1290,7 +1290,6 @@ footer .icon:hover a i,
 
 /* photo_gallery */
 .photo_gallery{
-    width: 100%;
     margin: 2rem 0 5rem auto;    
 }
 
@@ -1332,6 +1331,10 @@ footer .icon:hover a i,
 }
 .photo_gallery_2 .left_box .text h3{
     font-size: 2rem;
+}
+
+.photo_gallery .right_box .photo_gallery{
+    width: 55rem;
 }
 
 .photo_gallery .right_box{
