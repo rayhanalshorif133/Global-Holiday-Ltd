@@ -192,6 +192,9 @@
     }
 
     /* photo_gallery */
+    .photo_gallery {
+        margin: 1rem auto 2rem auto;
+    }
     .photo_gallery .left_box {
         padding: 20px;
     }
@@ -219,7 +222,7 @@
     }
 
     .photo_gallery .right_box .item {
-        margin: 10px 0;
+        margin: 13px;
     }
     .photo_gallery .right_box .item img {
         width: 100%;
